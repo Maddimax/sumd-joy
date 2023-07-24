@@ -1,7 +1,7 @@
 # Sumd-Joy
 
 A simple Arduino sketch that converts the SUMD signal of a Graupner 12 channel receiver like the GR-12L into a joystick.
-This assumes an Arduino Leonard or Arduino Pro Mini that can create USB interfaces.
+The code was tested on an Arduino Leonard, a Arduino Pro Mini should also work.
 
 ## X&Y Axis
 It is assumed that the Remote is setup as a Plane, with a single aileron channel and standard Elevator, rudder and a single motor. The channel mapping follows the Graupner default assignment:
