@@ -52,9 +52,10 @@ void readPacket()
 }
 
 void loop() {
-  // Heart beat
-  analogWrite(LED_BUILTIN, map(channels[0], 1000, 2000, 0, 255));
   readPacket();
+
+  // Helps to verify if data is received.
+  analogWrite(LED_BUILTIN, map(channels[0], 1000, 2000, 0, 255));
 
   Joystick.setXAxis(channels[3]);
   Joystick.setYAxis(channels[0]);
