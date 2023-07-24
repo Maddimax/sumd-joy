@@ -13,7 +13,6 @@ void setup() {
 
   pinMode(LED_BUILTIN, OUTPUT);
 
-  // put your setup code here, to run once:
   Joystick.begin(false);
   Joystick.setXAxisRange(1100, 1900);
   Joystick.setYAxisRange(1100, 1900);
