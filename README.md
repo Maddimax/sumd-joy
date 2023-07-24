@@ -4,7 +4,7 @@ A simple Arduino sketch that converts the SUMD signal of a Graupner 12 channel r
 This assumes an Arduino Leonard or Arduino Pro Mini that can create USB interfaces.
 
 ## X&Y Axis
-It assumes that the Remote is setup as a Plane, with a single aileron channel and standard Elevator rudder and a single motor. The channel mapping follows the Graupner default assignment:
+It is assumed that the Remote is setup as a Plane, with a single aileron channel and standard Elevator, rudder and a single motor. The channel mapping follows the Graupner default assignment:
 
 | Channel | Joystick |
 |---------|----------|
